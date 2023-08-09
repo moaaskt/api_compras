@@ -10,6 +10,46 @@ A API de Compras é um serviço que permite gerenciar e registrar informações 
 - Consulta de detalhes de transações financeiras.
 - Autenticação e autorização de usuários.
 
+
+## Exemplo de uso:
+
+### Criar uma Compra:
+
+```http
+
+POST /compras
+```
+Envie um JSON no corpo da solicitação contendo os detalhes da compra para criar uma nova compra.
+
+### Obter Detalhes de uma Compra:
+
+```http
+GET /compras/:id
+
+```
+Substitua :id pelo ID da compra desejada para obter seus detalhes.
+
+### Atualizar uma Compra:
+
+```http
+PUT /compras/:id
+```
+Substitua :id pelo ID da compra que deseja atualizar e envie um JSON no corpo da solicitação com os novos detalhes.
+
+### Excluir uma Compra:
+
+```http
+DELETE /compras/:id
+```
+Substitua :id pelo ID da compra que deseja excluir.
+
+
+### Obter Todas as Compras:
+```http
+GET /compras
+```
+Obtenha a lista de todas as compras registradas.
+
 ## Documentação da API
 
 Para informações detalhadas sobre os endpoints e como utilizar a API, consulte a nossa [Documentação da API](link-para-documentacao).
