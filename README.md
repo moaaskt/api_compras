@@ -50,6 +50,11 @@ GET /compras
 ```
 Obtenha a lista de todas as compras registradas.
 
+### Valot total das compras:
+```http
+GET /valor-total
+```
+Obtém a lista com o valor total da compra
 ## Documentação da API
 
 Para informações detalhadas sobre os endpoints e como utilizar a API, consulte a nossa [Documentação da API](link-para-documentacao).
